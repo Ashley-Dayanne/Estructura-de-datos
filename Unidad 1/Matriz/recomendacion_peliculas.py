@@ -36,3 +36,7 @@ calificacionesUsuario = matriz[0]
 print("Calificaciones del usuario 0: ", calificacionesUsuario)
 
 #Agregar una lógica para que el código pueda leer un arreglo de arreglos y lanzar las calificaciones una por una
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        print("Usuario ", i, "Película ", j, ": ", matriz[i][j])
