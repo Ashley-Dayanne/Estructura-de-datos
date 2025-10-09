@@ -1,6 +1,6 @@
 edades = [20, 21, 22]
 
-#Agregar un elemeento al final (append)
+#Agregar un elemento al final (append)
 edades.append(35)
 print(edades) #[20, 21, 22, 35]
 #Eliminar un elemento por su valor (remove)
