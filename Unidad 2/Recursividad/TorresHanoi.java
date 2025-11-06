@@ -30,3 +30,4 @@ public class TorresDeHanoi {
         resolverTorres(numeroDeDiscos, posteOrigen, posteDestino, posteAuxiliar);
     }
 }
+
