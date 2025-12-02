@@ -10,7 +10,7 @@ alertas = [0.32, 0.85, 0.10, 0.67, 0.93, 0.54, 0.76, 0.48, 0.29, 0.61]
 print("Alertas sin ordenar:")
 print(alertas)
 
-# Aplicar algoritmo de ordenamiento por selección (de mayor a menor)
+# Algorto para ordenar alarmas (de mayor a menor riesgo)
 n = len(alertas)
 
 for i in range(n):
